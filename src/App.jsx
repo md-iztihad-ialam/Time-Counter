@@ -1,12 +1,8 @@
-import Banner from "./components/Banner/Banner";
-import Counter from "./components/Counter/Counter";
+import Routing from "./components/Routing/Routing";
 
 function App(){
   return(
-    <div>
-      <Banner />
-      <Counter />
-    </div>
+    <Routing />
   );
 }
 
