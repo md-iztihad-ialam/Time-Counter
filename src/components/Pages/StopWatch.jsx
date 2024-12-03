@@ -31,11 +31,11 @@ function StopWatch(){
     }
 
     function handleStop(){
-        clearInterval(id.current);
-        
+        clearInterval(id.current);  
     }
 
     function handleReset(){
+        clearInterval(id.current);
         id.current=null;
         setSecond(0);
         setMinute(0);
