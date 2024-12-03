@@ -10,12 +10,12 @@ import StopWatch from '../Pages/StopWatch';
 function Routing(){
     return(
         <Routes>
-            <Route path='/' element={<Home />} />
 
             <Route path='/' element={<Layout />}>
 
+                <Route path='/' element={<Home />} />
                 <Route path='/calender-counter' element={<CalenderCounter />} />
-                <Route path='/birthdaywish' element={<BirthdayWish />} />
+                <Route path='/birthday-wish' element={<BirthdayWish />} />
                 <Route path='/countdown' element={<CountDown />} />
                 <Route path='/counter' element={<Counter />} />
                 <Route path='/stopwatch' element={<StopWatch />} />
