@@ -18,7 +18,7 @@ function Routing(){
                 <Route path='/birthday-wish' element={<BirthdayWish />} />
                 <Route path='/countdown' element={<CountDown />} />
                 <Route path='/counter' element={<Counter />} />
-                <Route path='/stopwatch' element={<StopWatch />} />
+                <Route path='/stop-watch' element={<StopWatch />} />
 
 
             </Route>
